@@ -26,5 +26,9 @@ There are many more instances of this. The philosophy is that everything is a va
 - Adds JSX highlighting.
 	+ Not 100% complete but works for most cases at the moment. Some nesting scenarios produce bad highliting, need to look into it further.
 
+### Install
+- Clone this repo into `./Data/Packages/`.
+- Select this `CoffeeScript` for your CoffeeScript files in the statusbar's dropdown.
+
 ### Further work
 - I will eventually rewrite the whole thing using the new YAML ST3 highlighting syntax which apparently allows for more flexibility. This should ensure better coverage.
