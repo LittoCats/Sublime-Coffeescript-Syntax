@@ -4,6 +4,7 @@
 
 This is built off of [Better CoffeeScript](https://packagecontrol.io/packages/Better%20CoffeeScript). You can use it alongside of it as long as you mearely select this `.tmLanguage` for your CoffeeScript files in the statusbar's dropdown.
 
+### Features
 - Adds function call highlighting scope `meta.function-call.coffee`
 This includes `fn 1`, `fn(1)`
 	```
