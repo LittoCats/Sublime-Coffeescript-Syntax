@@ -2,7 +2,8 @@
 
 ![Coffeescript](http://i.imgur.com/zj6q7yS.png)
 
-This is built off of [Better CoffeeScript](https://packagecontrol.io/packages/Better%20CoffeeScript). You can use it alongside of it as long as you mearely select this `.tmLanguage` for your CoffeeScript files in the statusbar's dropdown.
+This is built off of [Better CoffeeScript](https://packagecontrol.io/packages/Better%20CoffeeScript).
+
 
 ### Features
 - Adds function call highlighting scope `meta.function-call.coffee`
@@ -29,6 +30,7 @@ There are many more instances of this. The philosophy is that everything is a va
 ### Install
 - Clone this repo into `./Data/Packages/`.
 - Select this `CoffeeScript` for your CoffeeScript files in the statusbar's dropdown.
+- To use this `.tmLanguage` alongside another addon; simply replace it. With packaged apps this would mean creating the path `./Data/Packages/Better CoffeeScript/CoffeeScript.tmLanguage` (Thus overwriting the file inside the package in `./Data/Installed Packages/` package). There may be an easier way but I have found trying to co-habitat with two identically named synates results in this one reverting.
 
 ### Further work
 - I will eventually rewrite the whole thing using the new YAML ST3 highlighting syntax which apparently allows for more flexibility. This should ensure better coverage.
